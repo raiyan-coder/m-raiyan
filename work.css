@@ -1,0 +1,23 @@
+#work {
+    color: rgb(11, 63, 139);
+    background-position: fixed;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    place-items: center;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #work table tr th a {
+    text-decoration: none;
+    background-color: #bbb;
+  }

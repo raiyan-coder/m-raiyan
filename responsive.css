@@ -1,0 +1,67 @@
+@media screen and (max-width: 390px) {
+    .one .head {
+        display: inline-flex;
+        padding: 10px;
+        align-items: center;
+    }
+    .one .head img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .head p {
+        font-size: small;
+        font-style: italic;
+        color: cornsilk;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .head .mainu {
+      margin-left: 0px;
+      margin-top: 10px;
+      justify-content: space-between;
+    }
+    .head .mainu a {
+        font-size: 10px;
+        font-weight: 60;
+        padding: 2px 5px;
+    }
+    .intro {
+      margin: 8px;
+    }
+    .intro .hi {
+      font-size: 30px;
+      font-family:  'Brush Script MT', cursive;
+      color: whitesmoke;
+      text-align: left;
+    }
+    .intro .animated {
+      font-size: 20px;
+      font-weight: 200;
+      color: aliceblue;
+    }
+    .home-page .two .computer {
+      display: grid;
+      padding: 15px;
+      margin-left: 8px;
+    }
+    .home-page .two .html {
+      position:relative;
+      padding: 15px;
+      margin-left: 8px;
+    }
+    .home-page .two .css {
+      padding: 15px;
+      margin-left: 8px;
+      padding-bottom: 10px;
+    }
+    .contact{
+      display: inline-flex;
+      margin: 5px;
+    }
+    .foot .design {
+      font-size: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+}
